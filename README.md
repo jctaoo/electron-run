@@ -66,7 +66,7 @@ function createWindow() {
 app.whenReady().then(createWindow);
 ```
 
-> For more information about electron, see [electron doc](https://www.electronjs.org/docs)
+> For more information about Electron, see [electron doc](https://www.electronjs.org/docs)
 
 #### Write your `renderer process` code in `TypeScript`.
 
@@ -186,4 +186,4 @@ The build phase is almost the same as the development phase. The difference is t
 
 ### clean output
 
-run `elecrun clean` to easily clean output by `electron run`
+run `elecrun clean` to easily clean output by `electron-run`
