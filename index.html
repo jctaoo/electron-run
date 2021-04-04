@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='zh'>
 <head>
   <meta charset='UTF-8' />
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <title>Fre doc</title>
-  <link rel='stylesheet' href='docup.min.css' />
+  <title>electron-run doc</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@egoist/docup@2/dist/docup.min.css"
+  />
   <style>
       :root {
           --navbar-bg: #3e2e98;
@@ -16,11 +19,15 @@
           --content-link-fg: #bd1e68;
           --code-block-bg: #302b38;
       }
+      .content ul {
+          list-style-position: outside;
+          margin-left: 1.25rem;
+      }
   </style>
 </head>
 <body>
 <script type='module'>
-  import * as docup from './docup.fre.min';
+  import * as docup from 'https://unpkg.com/@egoist/docup@2/dist/docup.min.js'
 
   docup.init({
     title: "electron-run",
@@ -30,20 +37,20 @@
     },
     navLinks: [
       {
+        text: 'Quick Start',
+        link: '#quick-start'
+      },
+      {
+        text: 'How it works',
+        link: '#how-it-works'
+      },
+      {
         text: 'Guide',
         link: '#guide'
       },
       {
-        text: 'API',
-        link: '#api'
-      },
-      {
-        text: '中文',
-        link: '/zh'
-      },
-      {
         text: 'GitHub',
-        link: 'https://github.com/yisar/fre'
+        link: 'https://github.com/jctaoo/electron-run'
       }
     ]
   });
