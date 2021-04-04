@@ -104,7 +104,7 @@ src/renderer/index.html
 yarn dev
 ```
 
-<center> <br><img width="500px" src="./screen-shot.webp"> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">截图</div> <br></center>
+<center> <br><img width="500px" src="images/screen-shot.webp"> <br> <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">截图</div> <br></center>
 
 #### 源代码
 
