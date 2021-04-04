@@ -20,18 +20,18 @@
 
 ```shell
 # using npm
-npm install -g elecrun
+npm install -g electron-run
 # using yarn
-yarn global add elecrun
+yarn global add electron-run
 ```
 
 - 安装到 `开发时依赖` (即项目依赖)
 
 ```shell
 # using npm
-npm install elecrun --save-dev
+npm install electron-run --save-dev
 # using yarn
-yarn global add elecrun --dev
+yarn global add electron-run --dev
 ```
 
 ### 创建并运行 Electron 应用

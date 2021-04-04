@@ -20,18 +20,18 @@
 
 ```shell
 # using npm
-npm install -g elecrun
+npm install -g electron-run
 # using yarn
-yarn global add elecrun
+yarn global add electron-run
 ```
 
 - Install as devDependencies
 
 ```shell
 # using npm
-npm install elecrun --save-dev
+npm install electron-run --save-dev
 # using yarn
-yarn global add elecrun --dev
+yarn global add electron-run --dev
 ```
 
 ### Create & Run electron app
