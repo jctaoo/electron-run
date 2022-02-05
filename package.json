@@ -42,7 +42,7 @@
     "prepublishOnly": "run-s test"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "dependencies": {
     "colorette": "^2.0.16",
